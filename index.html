@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!--
+      This is a self-contained static page: Cloudflare Pages can serve it without
+      installing dependencies or running a build command.
+    -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A simple Hello World page for Hosoo Cho." />
+    <title>Hello World!</title>
+
+    <style>
+      /* Theme variables make colours easy to update from one central place. */
+      :root {
+        --page-background: #f8fafc;
+        --card-background: #ffffff;
+        --text-color: #1e293b;
+        --accent-color: #2563eb;
+        --border-color: #e2e8f0;
+      }
+
+      /* Remove browser defaults and make sizing predictable for every element. */
+      * { box-sizing: border-box; }
+
+      /* Centre the card and preserve a safe gap from the screen edge on mobile. */
+      body {
+        display: grid;
+        min-height: 100vh;
+        place-items: center;
+        margin: 0;
+        padding: 1.5rem;
+        background: var(--page-background);
+        color: var(--text-color);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      /* The card holds all visible page content in a small, readable area. */
+      main {
+        width: min(100%, 40rem);
+        padding: 3rem;
+        text-align: center;
+        background: var(--card-background);
+        border: 1px solid var(--border-color);
+        border-radius: 1rem;
+        box-shadow: 0 1rem 2.5rem rgb(15 23 42 / 8%);
+      }
+
+      /* The fluid type size adjusts gently between mobile and desktop. */
+      h1 {
+        margin: 0;
+        color: var(--accent-color);
+        font-size: clamp(2rem, 8vw, 4rem);
+        line-height: 1.1;
+      }
+
+      p {
+        margin: 1rem 0 0;
+        font-size: clamp(1rem, 3vw, 1.25rem);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Edit only these two elements to update the greeting shown on the page. -->
+    <main>
+      <h1>Hello World!</h1>
+      <p>I'm Hosoo Cho</p>
+    </main>
+  </body>
+</html>
