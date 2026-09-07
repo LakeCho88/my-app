@@ -1,0 +1,3 @@
+# Wrangler saves local Cloudflare Pages state here after a direct deployment.
+# It is machine-specific and is regenerated automatically, so it is not source code.
+.wrangler/

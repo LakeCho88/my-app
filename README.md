@@ -1,6 +1,6 @@
 # my-app
 
-A minimal static web app that displays **Hello World!** and **I'm Hosoo Cho**.
+A minimal static web app that displays **Hello World!** and **I'm Spiderman**.
 
 ## Project structure
 
